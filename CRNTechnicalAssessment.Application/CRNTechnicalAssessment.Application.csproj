@@ -10,4 +10,10 @@
     <ProjectReference Include="..\CRNTechnicalAssessment.Domain\CRNTechnicalAssessment.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.18.0" />
+  </ItemGroup>
+
 </Project>

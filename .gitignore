@@ -17,8 +17,25 @@ obj/
 packages/
 
 # Logs
+Logs/
 *.log
 
 # OS files
 Thumbs.db
 .DS_Store
+
+# Entity Framework local database
+*.mdf
+*.ldf
+
+# User Secrets
+secrets.json
+
+# Publish output
+publish/
+
+# Environment files
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml

@@ -24,8 +24,4 @@
     <ProjectReference Include="..\CRNTechnicalAssessment.Domain\CRNTechnicalAssessment.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\Configurations\" />
-  </ItemGroup>
-
 </Project>
